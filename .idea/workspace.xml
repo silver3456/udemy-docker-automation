@@ -69,7 +69,6 @@
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/main/java/com/football_manager/utils/ResponseParser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/PlayerControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/../edu_rest/src/test/java/com/football_manager/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
