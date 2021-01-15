@@ -1,7 +1,6 @@
 package com.newtours.tests;
 
 import com.newtours.pages.*;
-import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
@@ -37,7 +36,7 @@ public class BookFlightTest extends BaseTest {
     @Test(dependsOnMethods = "registrationConfirmationPageTest")
     public void flightDetailsPageTest() {
         FlightDetailsPage flightDetailsPage = new FlightDetailsPage(driver);
-        flightDetailsPage.selectPassangers(numOfPassengers);
+        flightDetailsPage.selectPassengers(numOfPassengers);
         flightDetailsPage.goToFindFlightsPage();
     }
 

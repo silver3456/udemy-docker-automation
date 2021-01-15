@@ -26,7 +26,7 @@ public class FlightDetailsPage {
         PageFactory.initElements(driver, this);
     }
 
-    public void selectPassangers(String numOfPassengers) {
+    public void selectPassengers(String numOfPassengers) {
         this.wait.until(ExpectedConditions.elementToBeClickable(passengers));
         Select select = new Select(passengers);
         select.selectByValue(numOfPassengers);

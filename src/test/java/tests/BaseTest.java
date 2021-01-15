@@ -1,6 +1,6 @@
 package tests;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+//import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -26,11 +26,13 @@ public class BaseTest {
 
         String host = "localhost";
         ChromeOptions chOp = new ChromeOptions();
-        DesiredCapabilities dc = DesiredCapabilities.chrome();
+        DesiredCapabilities dc;
 
         if (System.getProperty("BROWSER") != null &&
                    System.getProperty("BROWSER").equalsIgnoreCase("firefox")) {
             dc = DesiredCapabilities.firefox();
+        } else {
+            dc =  DesiredCapabilities.chrome();
         }
 
         if (System.getProperty("HUB_HOST") != null) {

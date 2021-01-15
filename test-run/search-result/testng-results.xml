@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Search-Module" duration-ms="130671" started-at="2021-01-14T23:24:11Z" finished-at="2021-01-14T23:26:22Z">
+    <groups>
+    </groups>
+    <test name="search-test-java" duration-ms="16673" started-at="2021-01-14T23:24:11Z" finished-at="2021-01-14T23:24:28Z">
+      <class name="searchmodule.tests.SearchModuleTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchModuleTest@2a18f23c]" name="setupDriver" is-config="true" duration-ms="7519" started-at="2021-01-14T23:24:11Z" finished-at="2021-01-14T23:24:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:searchmodule.tests.SearchModuleTest@2a18f23c]" name="searchTest" duration-ms="8598" started-at="2021-01-14T23:24:19Z" finished-at="2021-01-14T23:24:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[java]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:searchmodule.tests.SearchModuleTest@2a18f23c]" name="tearDown" is-config="true" duration-ms="475" started-at="2021-01-14T23:24:27Z" finished-at="2021-01-14T23:24:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- searchmodule.tests.SearchModuleTest -->
+    </test> <!-- search-test-java -->
+    <test name="search-test-qa" duration-ms="85691" started-at="2021-01-14T23:24:28Z" finished-at="2021-01-14T23:25:54Z">
+      <class name="searchmodule.tests.SearchModuleTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchModuleTest@129a8472]" name="setupDriver" is-config="true" duration-ms="77832" started-at="2021-01-14T23:24:28Z" finished-at="2021-01-14T23:25:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:searchmodule.tests.SearchModuleTest@129a8472]" name="searchTest" duration-ms="7774" started-at="2021-01-14T23:25:46Z" finished-at="2021-01-14T23:25:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:searchmodule.tests.SearchModuleTest@129a8472]" name="tearDown" is-config="true" duration-ms="67" started-at="2021-01-14T23:25:54Z" finished-at="2021-01-14T23:25:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- searchmodule.tests.SearchModuleTest -->
+    </test> <!-- search-test-qa -->
+    <test name="search-test-webdriver" duration-ms="8816" started-at="2021-01-14T23:25:54Z" finished-at="2021-01-14T23:26:03Z">
+      <class name="searchmodule.tests.SearchModuleTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchModuleTest@2752f6e2]" name="setupDriver" is-config="true" duration-ms="1613" started-at="2021-01-14T23:25:54Z" finished-at="2021-01-14T23:25:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:searchmodule.tests.SearchModuleTest@2752f6e2]" name="searchTest" duration-ms="7108" started-at="2021-01-14T23:25:56Z" finished-at="2021-01-14T23:26:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[webdriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:searchmodule.tests.SearchModuleTest@2752f6e2]" name="tearDown" is-config="true" duration-ms="93" started-at="2021-01-14T23:26:03Z" finished-at="2021-01-14T23:26:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- searchmodule.tests.SearchModuleTest -->
+    </test> <!-- search-test-webdriver -->
+    <test name="search-test-docker" duration-ms="10512" started-at="2021-01-14T23:26:03Z" finished-at="2021-01-14T23:26:14Z">
+      <class name="searchmodule.tests.SearchModuleTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchModuleTest@1d251891]" name="setupDriver" is-config="true" duration-ms="1725" started-at="2021-01-14T23:26:03Z" finished-at="2021-01-14T23:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:searchmodule.tests.SearchModuleTest@1d251891]" name="searchTest" duration-ms="8635" started-at="2021-01-14T23:26:05Z" finished-at="2021-01-14T23:26:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[docker]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:searchmodule.tests.SearchModuleTest@1d251891]" name="tearDown" is-config="true" duration-ms="146" started-at="2021-01-14T23:26:13Z" finished-at="2021-01-14T23:26:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- searchmodule.tests.SearchModuleTest -->
+    </test> <!-- search-test-docker -->
+    <test name="search-test-kubernetes" duration-ms="8106" started-at="2021-01-14T23:26:14Z" finished-at="2021-01-14T23:26:22Z">
+      <class name="searchmodule.tests.SearchModuleTest">
+        <test-method status="PASS" signature="setupDriver()[pri:0, instance:searchmodule.tests.SearchModuleTest@43a25848]" name="setupDriver" is-config="true" duration-ms="1768" started-at="2021-01-14T23:26:14Z" finished-at="2021-01-14T23:26:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupDriver -->
+        <test-method status="PASS" signature="searchTest(java.lang.String)[pri:0, instance:searchmodule.tests.SearchModuleTest@43a25848]" name="searchTest" duration-ms="6211" started-at="2021-01-14T23:26:15Z" finished-at="2021-01-14T23:26:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kubernetes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:searchmodule.tests.SearchModuleTest@43a25848]" name="tearDown" is-config="true" duration-ms="122" started-at="2021-01-14T23:26:22Z" finished-at="2021-01-14T23:26:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- searchmodule.tests.SearchModuleTest -->
+    </test> <!-- search-test-kubernetes -->
+  </suite> <!-- Search-Module -->
+</testng-results>
